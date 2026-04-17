@@ -239,3 +239,6 @@ function somaArray(arr){
 
 
  //
+
+
+ 
