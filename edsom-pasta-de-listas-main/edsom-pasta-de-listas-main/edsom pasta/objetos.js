@@ -29,32 +29,3 @@ let estudante = {
  console.log("depois", estudante);
 
  // 54: Altere a idade do objeto {nome: "João", idade: 18} para 19
-
- let estudantes = {
-   nome: "joao ",
-   idade : 18
- }
- console.log("idade" ,  estudantes)
-
- // 56: Exiba todas as propriedades do objeto {marca: "Nike", tamanho: 42, cor: "preto"}
- 
- let tenis = {
-   marca: "nike",
-   tamanho:  42,
-   cor:"preto"
- }
- for(let prop in tenis){
-   console.log(`${prop}: ${tenis[prop]}`);
- }
-
- // 57: Crie um objeto cachorro com nome "Rex" e um método latir que exibe "Au au!"
-
- let cachorro ={
-   nome: "rex",
-   latir: function(){
-      console.log("au AU ");
-   }
- }
- cachorro.latir();
-
- // 58: Crie um objeto aluno com nome "Lucas" e notas [8, 7, 9]
